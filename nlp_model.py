@@ -1,8 +1,10 @@
-text = "hola mundo"
-
+def function_one(text):
+    list = text.split(" ")
+    return list
 
 
 if __name__ == '__main__':
-    list = text.split(" ")
-    print(list)
-    
+    text = "hola mundo"
+    list1 = function_one(text =text)
+    print(list1)   
+
